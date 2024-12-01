@@ -1,0 +1,935 @@
+[PREINITIALIZATION][SERVER][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
+Peregrinus11
+Pongo Sapiens
+AdaraChristine
+NickT
+Phillip Swearingain
+Luvely
+NerdyWhiteGuy
+Quaternary
+Ivy_
+DreamThorn
+Genryu
+Hooley
+Belathus
+Jessie Sims
+WaterMoon
+Zuniroa
+Fbigummy
+Spencer Gilbert
+Ncc1702
+BrÃ¸nsted
+If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
+
+[PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit]]
+[PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: LootTweaker_Champions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: LootTweaker_FMB.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: LootTweaker_LostCities.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: LootTweaker_SAmulet.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Shiv.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Shiv2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:contenttweaker]: why.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 1ms
+[PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
+[PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [contenttweaker]
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: LootTweaker_Champions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: LootTweaker_FMB.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: LootTweaker_LostCities.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: LootTweaker_SAmulet.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Shiv.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Shiv2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Loading Script: {[0:contenttweaker]: why.zs}
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 139ms
+[INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
+[INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker], [recipeevent | crafttweaker]]
+[INITIALIZATION][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: LootTweaker_Champions.zs}
+[INITIALIZATION][SERVER][INFO] Queued pool tier#5 for addition to table champions:champion_loot
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'tier#5' of table 'champions:champion_loot'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: LootTweaker_FMB.zs}
+[INITIALIZATION][SERVER][INFO] Queued all pools of table fishingmadebetter:fishing_combined for removal
+[INITIALIZATION][SERVER][INFO] Queued pool rlcraftfishing for addition to table fishingmadebetter:fishing_combined
+[INITIALIZATION][SERVER][INFO] Queued item entry 'treasure_1' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'treasure_2' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'treasure_3' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'treasure_4' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'treasure_5' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'treasure_6' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'treasure_7' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'treasure_8' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'treasure_9' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'treasure_10' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_1' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_2' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_3' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_4' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_5' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_6' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_7' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_8' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_9' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_10' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_11' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_12' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_13' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_14' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_15' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_16' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_17' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_18' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'junk_19' for addition to pool 'rlcraftfishing' of table 'fishingmadebetter:fishing_combined'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: LootTweaker_LostCities.zs}
+[INITIALIZATION][SERVER][INFO] Created new table 'loottweaker:lostcityhighrise'
+[INITIALIZATION][SERVER][INFO] Created new table 'loottweaker:lostcityground'
+[INITIALIZATION][SERVER][INFO] Created new table 'loottweaker:lostcitybasement'
+[INITIALIZATION][SERVER][INFO] Created new table 'loottweaker:lostcitysubway'
+[INITIALIZATION][SERVER][INFO] Created new table 'loottweaker:lostcityrare'
+[INITIALIZATION][SERVER][INFO] Created new table 'loottweaker:lostcityuncommon'
+[INITIALIZATION][SERVER][INFO] Created new table 'loottweaker:lostcitycommon'
+[INITIALIZATION][SERVER][INFO] Created new table 'loottweaker:lowtable'
+[INITIALIZATION][SERVER][INFO] Created new table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Created new table 'loottweaker:hightable'
+[INITIALIZATION][SERVER][INFO] Created new table 'loottweaker:buildertable'
+[INITIALIZATION][SERVER][INFO] Queued pool highrise for addition to table loottweaker:lostcityhighrise
+[INITIALIZATION][SERVER][INFO] Queued pool ground for addition to table loottweaker:lostcityground
+[INITIALIZATION][SERVER][INFO] Queued pool basement for addition to table loottweaker:lostcitybasement
+[INITIALIZATION][SERVER][INFO] Queued pool subway for addition to table loottweaker:lostcitysubway
+[INITIALIZATION][SERVER][INFO] Queued pool rare for addition to table loottweaker:lostcityrare
+[INITIALIZATION][SERVER][INFO] Queued pool uncommon for addition to table loottweaker:lostcityuncommon
+[INITIALIZATION][SERVER][INFO] Queued pool common for addition to table loottweaker:lostcitycommon
+[INITIALIZATION][SERVER][INFO] Queued pool low for addition to table loottweaker:lowtable
+[INITIALIZATION][SERVER][INFO] Queued pool medium for addition to table loottweaker:medtable
+[INITIALIZATION][SERVER][INFO] Queued pool high for addition to table loottweaker:hightable
+[INITIALIZATION][SERVER][INFO] Queued pool builder for addition to table loottweaker:buildertable
+[INITIALIZATION][SERVER][INFO] Queued item entry '1' for addition to pool 'low' of table 'loottweaker:lowtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '2' for addition to pool 'low' of table 'loottweaker:lowtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '3' for addition to pool 'low' of table 'loottweaker:lowtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '4' for addition to pool 'low' of table 'loottweaker:lowtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '5' for addition to pool 'low' of table 'loottweaker:lowtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '6' for addition to pool 'low' of table 'loottweaker:lowtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '7' for addition to pool 'low' of table 'loottweaker:lowtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '8' for addition to pool 'low' of table 'loottweaker:lowtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '9' for addition to pool 'low' of table 'loottweaker:lowtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '10' for addition to pool 'low' of table 'loottweaker:lowtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '11' for addition to pool 'low' of table 'loottweaker:lowtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '12' for addition to pool 'low' of table 'loottweaker:lowtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '1' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '1bi' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '1bd' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '2' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '2ia' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '2da' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '3' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '4' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '5' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '6' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '7' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '8' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '9' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '10' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '11' for addition to pool 'medium' of table 'loottweaker:medtable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '1' for addition to pool 'high' of table 'loottweaker:hightable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '2' for addition to pool 'high' of table 'loottweaker:hightable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '3' for addition to pool 'high' of table 'loottweaker:hightable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '4' for addition to pool 'high' of table 'loottweaker:hightable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '5' for addition to pool 'high' of table 'loottweaker:hightable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '6' for addition to pool 'high' of table 'loottweaker:hightable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '7' for addition to pool 'high' of table 'loottweaker:hightable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '8' for addition to pool 'high' of table 'loottweaker:hightable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '9' for addition to pool 'high' of table 'loottweaker:hightable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '10' for addition to pool 'high' of table 'loottweaker:hightable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '11' for addition to pool 'high' of table 'loottweaker:hightable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '12' for addition to pool 'high' of table 'loottweaker:hightable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '1' for addition to pool 'builder' of table 'loottweaker:buildertable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '2' for addition to pool 'builder' of table 'loottweaker:buildertable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '3' for addition to pool 'builder' of table 'loottweaker:buildertable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '4' for addition to pool 'builder' of table 'loottweaker:buildertable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '5' for addition to pool 'builder' of table 'loottweaker:buildertable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '6' for addition to pool 'builder' of table 'loottweaker:buildertable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '7' for addition to pool 'builder' of table 'loottweaker:buildertable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '8' for addition to pool 'builder' of table 'loottweaker:buildertable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '9' for addition to pool 'builder' of table 'loottweaker:buildertable'
+[INITIALIZATION][SERVER][INFO] Queued item entry '10' for addition to pool 'builder' of table 'loottweaker:buildertable'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'fairy_ring' for addition to pool 'highrise' of table 'loottweaker:lostcityhighrise'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#1' for addition to pool 'highrise' of table 'loottweaker:lostcityhighrise'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#2' for addition to pool 'highrise' of table 'loottweaker:lostcityhighrise'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'elf_ring' for addition to pool 'ground' of table 'loottweaker:lostcityground'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#1' for addition to pool 'ground' of table 'loottweaker:lostcityground'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#2' for addition to pool 'ground' of table 'loottweaker:lostcityground'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#3' for addition to pool 'ground' of table 'loottweaker:lostcityground'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#4' for addition to pool 'ground' of table 'loottweaker:lostcityground'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'dwarf_ring' for addition to pool 'basement' of table 'loottweaker:lostcitybasement'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#1' for addition to pool 'basement' of table 'loottweaker:lostcitybasement'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#2' for addition to pool 'basement' of table 'loottweaker:lostcitybasement'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#3' for addition to pool 'basement' of table 'loottweaker:lostcitybasement'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'goblin_ring' for addition to pool 'subway' of table 'loottweaker:lostcitysubway'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#1' for addition to pool 'subway' of table 'loottweaker:lostcitysubway'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#2' for addition to pool 'subway' of table 'loottweaker:lostcitysubway'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#3' for addition to pool 'subway' of table 'loottweaker:lostcitysubway'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'dragon_ring' for addition to pool 'rare' of table 'loottweaker:lostcityrare'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#1' for addition to pool 'rare' of table 'loottweaker:lostcityrare'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#2' for addition to pool 'rare' of table 'loottweaker:lostcityrare'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#3' for addition to pool 'rare' of table 'loottweaker:lostcityrare'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'titan_ring' for addition to pool 'uncommon' of table 'loottweaker:lostcityuncommon'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#1' for addition to pool 'uncommon' of table 'loottweaker:lostcityuncommon'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#2' for addition to pool 'uncommon' of table 'loottweaker:lostcityuncommon'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#3' for addition to pool 'uncommon' of table 'loottweaker:lostcityuncommon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'faelis_ring' for addition to pool 'common' of table 'loottweaker:lostcitycommon'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#1' for addition to pool 'common' of table 'loottweaker:lostcitycommon'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#2' for addition to pool 'common' of table 'loottweaker:lostcitycommon'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#3' for addition to pool 'common' of table 'loottweaker:lostcitycommon'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#4' for addition to pool 'common' of table 'loottweaker:lostcitycommon'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#5' for addition to pool 'common' of table 'loottweaker:lostcitycommon'
+[INITIALIZATION][SERVER][INFO] Queued loot table entry 'loottweaker#6' for addition to pool 'common' of table 'loottweaker:lostcitycommon'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: LootTweaker_SAmulet.zs}
+[INITIALIZATION][SERVER][INFO] Queued all pools of table artifacts:sacrificial_reward for removal
+[INITIALIZATION][SERVER][INFO] Queued pool brah for addition to table artifacts:sacrificial_reward
+[INITIALIZATION][SERVER][INFO] Queued item entry 'yeploot' for addition to pool 'brah' of table 'artifacts:sacrificial_reward'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Shiv.zs}
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:515: Could not resolve <spartandefiled : staff_umbrium>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:650: Could not resolve <spartandefiled : longsword_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:651: Could not resolve <spartandefiled : katana_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:652: Could not resolve <spartandefiled : saber_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:653: Could not resolve <spartandefiled : rapier_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:654: Could not resolve <spartandefiled : greatsword_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:655: Could not resolve <spartandefiled : hammer_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:656: Could not resolve <spartandefiled : warhammer_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:657: Could not resolve <spartandefiled : halberd_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:659: Could not resolve <spartandefiled : battleaxe_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:660: Could not resolve <spartandefiled : mace_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:661: Could not resolve <spartandefiled : glaive_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:662: Could not resolve <spartandefiled : staff_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:721: Could not resolve <spartandefiled : dagger_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:722: Could not resolve <spartandefiled : spear_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:723: Could not resolve <spartandefiled : pike_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:724: Could not resolve <spartandefiled : lance_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv.zs:2077: Could not resolve <spartandefiled : staff_umbrium>
+[INITIALIZATION][SERVER][INFO] Script starting!
+[INITIALIZATION][SERVER][INFO] Setting hardness of Monster Spawner to 15.0
+[INITIALIZATION][SERVER][INFO] Queued pool wut for addition to table minecraft:entities/skeleton
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'wut' of table 'minecraft:entities/skeleton'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'wut' of table 'minecraft:entities/skeleton'
+[INITIALIZATION][SERVER][INFO] Queued pool lul for addition to table minecraft:entities/zombie
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'lul' of table 'minecraft:entities/zombie'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'lul' of table 'minecraft:entities/zombie'
+[INITIALIZATION][SERVER][INFO] Queued pool yep for addition to table minecraft:entities/creeper
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'yep' of table 'minecraft:entities/creeper'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'yep' of table 'minecraft:entities/creeper'
+[INITIALIZATION][SERVER][INFO] Queued pool mkey for addition to table playerbosses:entity/player_boss
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'mkey' of table 'playerbosses:entity/player_boss'
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <rustic:chili_pepper_seeds>: "Fertile Seasons:"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <rustic:chili_pepper_seeds>: " Summer"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <rustic:tomato_seeds>: "Fertile Seasons:"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <rustic:tomato_seeds>: " Summer"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <rustic:tomato_seeds>: " Autumn"
+[INITIALIZATION][SERVER][INFO] Translating item.fishingRod.name to Ancient Fishing Rod
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <minecraft:fishing_rod:*>: "Only used for crafting!"
+[INITIALIZATION][SERVER][INFO] Translating item.advanced-fishing.blazing_fishing_pole.name to Ancient Lava Fishing Rod
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <advanced-fishing:blazing_fishing_pole:*>: "Only used for crafting!"
+[INITIALIZATION][SERVER][INFO] Translating item.iceandfire.fishing_spear.name to Ancient Fishing Spear
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <iceandfire:fishing_spear:*>: "Only used for crafting!"
+[INITIALIZATION][SERVER][INFO] Translating tile.simpledifficulty:heater.name to Heating Coil
+[INITIALIZATION][SERVER][INFO] Translating tile.simpledifficulty:chiller.name to Cooling Coil
+[INITIALIZATION][SERVER][INFO] Translating item.simpledifficulty:wool_helmet.name to Wool Hood
+[INITIALIZATION][SERVER][INFO] Translating item.simpledifficulty:wool_chestplate.name to Wool Coat
+[INITIALIZATION][SERVER][INFO] Translating item.simpledifficulty:wool_leggings.name to Wool Leggings
+[INITIALIZATION][SERVER][INFO] Translating item.simpledifficulty:wool_boots.name to Wool Boots
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <armorunder:auto_chestplate_liner>: " Destroyed upon removal!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <armorunder:auto_leggings_liner>: " Destroyed upon removal!"
+[INITIALIZATION][SERVER][INFO] Translating item.notreepunching:rock.basalt.name to Basalt Rock
+[INITIALIZATION][SERVER][INFO] Translating tile.notreepunching:cobblestone.basalt.name to Basalt Cobblestone
+[INITIALIZATION][SERVER][INFO] Translating tile.bone_block.name to Smooth Bone Block
+[INITIALIZATION][SERVER][INFO] Translating tile.bountifulbaubles.reforger.name to Baubles Reforging Station
+[INITIALIZATION][SERVER][INFO] Translating item.fish.cod.raw.name to River Fish
+[INITIALIZATION][SERVER][INFO] Translating item.fish.salmon.raw.name to Mountain Fish
+[INITIALIZATION][SERVER][INFO] Translating item.fish.clownfish.raw.name to Tropical Fish
+[INITIALIZATION][SERVER][INFO] Translating item.fish.pufferfish.raw.name to Ocean Fish
+[INITIALIZATION][SERVER][INFO] Translating item.fish.cod.cooked.name to Cooked River Fish
+[INITIALIZATION][SERVER][INFO] Translating item.fish.salmon.cooked.name to Cooked Mountain Fish
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <quark:ancient_tome:*>: "Use in off-hand to apply to matching enchanted item"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <rlmixins:cleansing_talisman>: "Craft with any enchanted book to convert the book's enchantment to Curse Break"
+[INITIALIZATION][SERVER][INFO] Translating item.bountifulbaubles.ringIron.name to Holy Ring
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <bountifulbaubles:amuletsinwrath>: "A trophy lost to time, reminiscent of another world."
+[INITIALIZATION][SERVER][INFO] Translating item.heart.name to Demonic Heart
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <variedcommodities:heart>: "One of many hearts dropped by Rahovart, still beating with demonic energy."
+[INITIALIZATION][SERVER][INFO] Translating item.skull.name to Corrupted Skull
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <variedcommodities:skull>: "One of many skulls dropped by Asmodeus, the lost souls inside can still be heard screaming."
+[INITIALIZATION][SERVER][INFO] Translating item.saddle.name to Basic Saddle
+[INITIALIZATION][SERVER][ERROR] Cannot remove recipes for a null item!
+[INITIALIZATION][SERVER][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: Shiv.zs}: null
+java.lang.NullPointerException
+	at crafttweaker.mc1120.furnace.MCFurnaceManager.addRecipe(MCFurnaceManager.java:49)
+	at Shiv.__script__(Shiv.zs:650)
+	at __ZenMain__.run(Shiv)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:240)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:105)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:71)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_520_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:857)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:636)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747)
+	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:748)
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Shiv2.zs}
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:101: Could not resolve <spartandefiled : staff_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:102: Could not resolve <spartandefiled : glaive_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:103: Could not resolve <spartandefiled : mace_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:104: Could not resolve <spartandefiled : battleaxe_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:105: Could not resolve <spartandefiled : boomerang_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:106: Could not resolve <spartandefiled : javelin_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:107: Could not resolve <spartandefiled : throwing_axe_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:108: Could not resolve <spartandefiled : throwing_knife_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:109: Could not resolve <spartandefiled : crossbow_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:110: Could not resolve <spartandefiled : katana_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:111: Could not resolve <spartandefiled : longsword_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:112: Could not resolve <spartandefiled : greatsword_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:113: Could not resolve <spartandefiled : rapier_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:114: Could not resolve <spartandefiled : saber_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:115: Could not resolve <spartandefiled : lance_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:116: Could not resolve <spartandefiled : pike_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:117: Could not resolve <spartandefiled : spear_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:118: Could not resolve <spartandefiled : longbow_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:119: Could not resolve <spartandefiled : halberd_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:120: Could not resolve <spartandefiled : hammer_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:121: Could not resolve <spartandefiled : warhammer_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:122: Could not resolve <spartandefiled : dagger_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:191: Could not resolve <spartandefiled : longbow_umbrium : *>
+[INITIALIZATION][SERVER][ERROR] Shiv2.zs:192: Could not resolve <spartandefiled : crossbow_umbrium : *>
+[INITIALIZATION][SERVER][INFO] Script starting!
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <simpledifficulty:wool_helmet:*>: "+2 Warmth"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <simpledifficulty:wool_chestplate:*>: "+2 Warmth"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <simpledifficulty:wool_leggings:*>: "+2 Warmth"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <simpledifficulty:wool_boots:*>: "+2 Warmth"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <simpledifficulty:ice_helmet:*>: "+2 Cooling"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <simpledifficulty:ice_chestplate:*>: "+2 Cooling"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <simpledifficulty:ice_leggings:*>: "+2 Cooling"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <simpledifficulty:ice_boots:*>: "+2 Cooling"
+[INITIALIZATION][SERVER][INFO] Translating item.scarlite_helmet.name to Scarlite Helmet
+[INITIALIZATION][SERVER][INFO] Translating item.scarlite_chestplate.name to Scarlite Chestplate
+[INITIALIZATION][SERVER][INFO] Translating item.scarlite_leggings.name to Scarlite Leggings
+[INITIALIZATION][SERVER][INFO] Translating item.scarlite_boots.name to Scarlite Boots
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <mujmajnkraftsbettersurvival:itemsteelhammer:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <mujmajnkraftsbettersurvival:itemsteelspear:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <mujmajnkraftsbettersurvival:itemsteeldagger:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <mujmajnkraftsbettersurvival:itemsteelbattleaxe:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <mujmajnkraftsbettersurvival:itemsteelnunchaku:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:dagger_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:longsword_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:katana_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:saber_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:rapier_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:greatsword_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:hammer_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:warhammer_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:spear_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:throwing_axe_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:halberd_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:pike_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:lance_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:throwing_knife_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:javelin_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:boomerang_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:battleaxe_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:mace_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:glaive_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <spartanweaponry:staff_steel:*>: "+2 damage against Nether mobs and Fire elementals"
+[INITIALIZATION][SERVER][INFO] Adding Silver Axe to ore dictionary entry toolAxe
+[INITIALIZATION][SERVER][INFO] Adding Dragon Bone Axe to ore dictionary entry toolAxe
+[INITIALIZATION][SERVER][INFO] Adding Steel Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Wooden Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Stone Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Iron Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Golden Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Diamond Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Bronze Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Silver Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Quarterstaff to ore dictionary entry spartanStaff
+[INITIALIZATION][SERVER][INFO] Adding Steel Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Wooden Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Stone Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Iron Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Golden Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Diamond Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Bronze Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Silver Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Glaive to ore dictionary entry spartanGlaive
+[INITIALIZATION][SERVER][INFO] Adding Steel Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Wooden Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Stone Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Iron Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Golden Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Diamond Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Bronze Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Silver Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Flanged Mace to ore dictionary entry spartanMace
+[INITIALIZATION][SERVER][INFO] Adding Steel Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Wooden Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Stone Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Iron Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Golden Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Diamond Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Bronze Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Silver Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Battleaxe to ore dictionary entry spartanBattleaxe
+[INITIALIZATION][SERVER][INFO] Adding Steel Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Wooden Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Stone Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Iron Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Golden Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Diamond Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Bronze Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Silver Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Boomerang to ore dictionary entry spartanBoomerang
+[INITIALIZATION][SERVER][INFO] Adding Steel Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Wooden Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Stone Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Iron Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Golden Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Diamond Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Bronze Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Silver Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Javelin to ore dictionary entry spartanjavelin
+[INITIALIZATION][SERVER][INFO] Adding Steel Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Wooden Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Stone Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Iron Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Golden Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Diamond Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Bronze Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Silver Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Throwing Axe to ore dictionary entry spartanThrowingAxe
+[INITIALIZATION][SERVER][INFO] Adding Steel Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Wooden Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Stone Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Iron Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Golden Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Diamond Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Bronze Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Silver Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Throwing Knife to ore dictionary entry spartanThrowingKnife
+[INITIALIZATION][SERVER][INFO] Adding Steel-Strengthened Crossbow to ore dictionary entry spartanCrossbow
+[INITIALIZATION][SERVER][INFO] Adding Wooden Crossbow to ore dictionary entry spartanCrossbow
+[INITIALIZATION][SERVER][INFO] Adding Leather-Strengthened Crossbow to ore dictionary entry spartanCrossbow
+[INITIALIZATION][SERVER][INFO] Adding Iron-Strengthened Crossbow to ore dictionary entry spartanCrossbow
+[INITIALIZATION][SERVER][INFO] Adding Diamond-Strengthened Crossbow to ore dictionary entry spartanCrossbow
+[INITIALIZATION][SERVER][INFO] Adding Bronze-Strengthened Crossbow to ore dictionary entry spartanCrossbow
+[INITIALIZATION][SERVER][INFO] Adding Silver-Strengthened Crossbow to ore dictionary entry spartanCrossbow
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger-Strengthened Crossbow to ore dictionary entry spartanCrossbow
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger-Strengthened Crossbow to ore dictionary entry spartanCrossbow
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex-Strengthened Crossbow to ore dictionary entry spartanCrossbow
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex-Strengthened Crossbow to ore dictionary entry spartanCrossbow
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone-Strengthened Crossbow to ore dictionary entry spartanCrossbow
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone-Strengthened Crossbow to ore dictionary entry spartanCrossbow
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone-Strengthened Crossbow to ore dictionary entry spartanCrossbow
+[INITIALIZATION][SERVER][INFO] Adding Steel Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Wooden Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Stone Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Iron Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Golden Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Diamond Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Bronze Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Silver Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Katana to ore dictionary entry spartanKatana
+[INITIALIZATION][SERVER][INFO] Adding Steel Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Wooden Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Stone Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Iron Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Golden Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Diamond Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Bronze Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Silver Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Longsword to ore dictionary entry spartanLongsword
+[INITIALIZATION][SERVER][INFO] Adding Steel Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Wooden Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Stone Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Iron Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Golden Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Diamond Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Bronze Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Silver Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Greatsword to ore dictionary entry spartanGreatsword
+[INITIALIZATION][SERVER][INFO] Adding Steel Rapier to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Wooden Saber to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Stone Rapier to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Iron Rapier to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Golden Rapier to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Diamond Rapier to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Bronze Rapier to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Silver Rapier to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Rapier to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Rapier to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Rapier to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Rapier to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Rapier to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Rapier to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Rapier to ore dictionary entry spartanRapier
+[INITIALIZATION][SERVER][INFO] Adding Steel Saber to ore dictionary entry spartanSaber
+[INITIALIZATION][SERVER][INFO] Adding Stone Saber to ore dictionary entry spartanSaber
+[INITIALIZATION][SERVER][INFO] Adding Iron Saber to ore dictionary entry spartanSaber
+[INITIALIZATION][SERVER][INFO] Adding Golden Saber to ore dictionary entry spartanSaber
+[INITIALIZATION][SERVER][INFO] Adding Diamond Saber to ore dictionary entry spartanSaber
+[INITIALIZATION][SERVER][INFO] Adding Bronze Saber to ore dictionary entry spartanSaber
+[INITIALIZATION][SERVER][INFO] Adding Silver Saber to ore dictionary entry spartanSaber
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Saber to ore dictionary entry spartanSaber
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Saber to ore dictionary entry spartanSaber
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Saber to ore dictionary entry spartanSaber
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Saber to ore dictionary entry spartanSaber
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Saber to ore dictionary entry spartanSaber
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Saber to ore dictionary entry spartanSaber
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Saber to ore dictionary entry spartanSaber
+[INITIALIZATION][SERVER][INFO] Adding Steel Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Wooden Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Stone Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Iron Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Golden Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Diamond Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Bronze Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Silver Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Lance to ore dictionary entry spartanLance
+[INITIALIZATION][SERVER][INFO] Adding Steel Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Wooden Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Stone Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Iron Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Golden Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Diamond Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Bronze Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Silver Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Pike to ore dictionary entry spartanPike
+[INITIALIZATION][SERVER][INFO] Adding Steel Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Wooden Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Stone Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Iron Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Golden Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Diamond Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Bronze Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Silver Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Spear to ore dictionary entry spartanSpear
+[INITIALIZATION][SERVER][INFO] Adding Steel-Strengthened Longbow to ore dictionary entry spartanLongbow
+[INITIALIZATION][SERVER][INFO] Adding Wooden Longbow to ore dictionary entry spartanLongbow
+[INITIALIZATION][SERVER][INFO] Adding Leather-Strengthened Longbow to ore dictionary entry spartanLongbow
+[INITIALIZATION][SERVER][INFO] Adding Iron-Strengthened Longbow to ore dictionary entry spartanLongbow
+[INITIALIZATION][SERVER][INFO] Adding Diamond-Strengthened Longbow to ore dictionary entry spartanLongbow
+[INITIALIZATION][SERVER][INFO] Adding Bronze-Strengthened Longbow to ore dictionary entry spartanLongbow
+[INITIALIZATION][SERVER][INFO] Adding Silver-Strengthened Longbow to ore dictionary entry spartanLongbow
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger-Strengthened Longbow to ore dictionary entry spartanLongbow
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger-Strengthened Longbow to ore dictionary entry spartanLongbow
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex-Strengthened Longbow to ore dictionary entry spartanLongbow
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex-Strengthened Longbow to ore dictionary entry spartanLongbow
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone-Strengthened Longbow to ore dictionary entry spartanLongbow
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone-Strengthened Longbow to ore dictionary entry spartanLongbow
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone-Strengthened Longbow to ore dictionary entry spartanLongbow
+[INITIALIZATION][SERVER][INFO] Adding Steel Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Wooden Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Stone Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Iron Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Golden Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Diamond Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Bronze Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Silver Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Halberd to ore dictionary entry spartanHalberd
+[INITIALIZATION][SERVER][INFO] Adding Steel Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Wooden Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Stone Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Iron Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Golden Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Diamond Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Bronze Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Silver Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Hammer to ore dictionary entry spartanHammer
+[INITIALIZATION][SERVER][INFO] Adding Steel Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Wooden Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Stone Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Iron Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Golden Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Diamond Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Bronze Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Silver Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Warhammer to ore dictionary entry spartanWarhammer
+[INITIALIZATION][SERVER][INFO] Adding Steel Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Wooden Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Stone Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Iron Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Golden Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Diamond Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Bronze Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Silver Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Stinger Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Stinger Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Desert Myrmex Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Jungle Myrmex Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Iced Dragonbone Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Flamed Dragonbone Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Dragonbone Dagger to ore dictionary entry spartanDagger
+[INITIALIZATION][SERVER][INFO] Adding Plant Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Dragon Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Anthronian Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Undead Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Demon Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Imp Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Aberration Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Avian Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Amphibian Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Arachnid Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Worm Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Beast Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Insect Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Aquatic Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Reptile Treat to ore dictionary entry lycaniteTreat
+[INITIALIZATION][SERVER][INFO] Adding Beast Saddle to ore dictionary entry lycaniteSaddle
+[INITIALIZATION][SERVER][INFO] Adding Insect Saddle to ore dictionary entry lycaniteSaddle
+[INITIALIZATION][SERVER][INFO] Adding Dragon Saddle to ore dictionary entry lycaniteSaddle
+[INITIALIZATION][SERVER][INFO] Adding Amphibian Saddle to ore dictionary entry lycaniteSaddle
+[INITIALIZATION][SERVER][INFO] Adding Reptile Saddle to ore dictionary entry lycaniteSaddle
+[INITIALIZATION][SERVER][INFO] Adding Avian Saddle to ore dictionary entry lycaniteSaddle
+[INITIALIZATION][SERVER][INFO] Adding Aquatic Saddle to ore dictionary entry lycaniteSaddle
+[INITIALIZATION][SERVER][INFO] Adding Aberration Saddle to ore dictionary entry lycaniteSaddle
+[INITIALIZATION][SERVER][INFO] Adding Demon Saddle to ore dictionary entry lycaniteSaddle
+[INITIALIZATION][SERVER][INFO] Adding Oak Crate to ore dictionary entry charmCrate
+[INITIALIZATION][SERVER][INFO] Adding Spruce Crate to ore dictionary entry charmCrate
+[INITIALIZATION][SERVER][INFO] Adding Birch Crate to ore dictionary entry charmCrate
+[INITIALIZATION][SERVER][INFO] Adding Jungle Crate to ore dictionary entry charmCrate
+[INITIALIZATION][SERVER][INFO] Adding Acacia Crate to ore dictionary entry charmCrate
+[INITIALIZATION][SERVER][INFO] Adding Dark Oak Crate to ore dictionary entry charmCrate
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <sereneseasons:greenhouse_glass:*>: "Allows crops up to 7 blocks directly beneath to grow in any season"
+[INITIALIZATION][SERVER][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: Shiv2.zs}: null
+java.lang.NullPointerException
+	at crafttweaker.mc1120.furnace.MCFurnaceManager.addRecipe(MCFurnaceManager.java:49)
+	at Shiv2.__script__(Shiv2.zs:191)
+	at __ZenMain__.run(Shiv2)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:240)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:105)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:71)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_520_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:857)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:636)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747)
+	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:748)
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Skipping file {[0:contenttweaker]: why.zs} as we are currently loading with a different loader
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 242ms
+[POSTINITIALIZATION][SERVER][INFO] Removing recipes for various outputs
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "minecraft:stone_brick_slab"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "minecraft:stone_brick_stairs"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "xat:dragons_eye"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:spectralsilt_flaregun"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:flare_red"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:phantomprism"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:spectralsilt_magicmirror"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:wormholemirror"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:spectralsilt_luckyhorseshoe"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:ringflywheel"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:ringflywheeladvanced"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:ringiron"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:spectralsilt_sinpendantempty"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:spectralsilt_shieldcobalt"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:amuletsinwrath"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:amuletsingluttony"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:crowngold"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "foodexpansion:netherwartsoup"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "defiledlands:decoration/stone_defiled_stairs"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "defiledlands:decoration/sandstone_defiled_stairs"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "defiledlands:decoration/stone_defiled_bricks_stairs"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "defiledlands:decoration/tenebra_stairs"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:block_grapple_modifier"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:launcheritem"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:repeller"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:baseupgradeitem"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:doubleupgradeitem"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:doubleupgradeitem"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:forcefieldupgradeitem"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:magnetupgradeitem"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:motorupgradeitem"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:ropeupgradeitem"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:staffupgradeitem"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:swingupgradeitem"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:throwupgradeitem"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:limitsupgradeitem"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:longfallboots"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "notreepunching:tools/fire_starter"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "charm:ender_pearl"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "lycanitesmobs:paleosalad"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "quark:duskbound_block"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "quark:midori_block"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "quark:wheat"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "betternether:stalagnate_stick"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "lycanitesmobs:sugar"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "aquaculture:leather_from_boots"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:mithril_spear_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:demonic_spear_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:demonic_broadsword_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:mithril_broadsword_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:mithril_dagger_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:demonic_dagger_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:demonic_sword_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:mithril_sword_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:rockethook"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:doublemotorhook"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:motorhook"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:magnethook"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:rocketdoublemotorhook"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:enderhook"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "grapplemod:smarthook"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "betterquesting:life_full_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "betterquesting:life_full_1"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "betterquesting:life_full_2"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "betterquesting:life_half_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "betterquesting:life_half_1"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "betterquesting:life_quarter_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:mithril_head_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:demonic_head_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:demonic_chest_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:mithril_chest_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:mithril_legs_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:demonic_legs_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:mithril_boots_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "variedcommodities:demonic_boots_0"
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <notreepunching:ceramic_small_vessel>
+[POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <notreepunching:ceramic_small_vessel>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <minecraft:gold_nugget>
+[POSTINITIALIZATION][SERVER][INFO] 15 recipes removed for: <minecraft:gold_nugget>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <minecraft:iron_nugget>
+[POSTINITIALIZATION][SERVER][INFO] 16 recipes removed for: <minecraft:iron_nugget>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <defiledlands:umbrium_nugget>
+[POSTINITIALIZATION][SERVER][INFO] 9 recipes removed for: <defiledlands:umbrium_nugget>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <variedcommodities:ingot_steel>
+[POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <variedcommodities:ingot_steel>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <iceandfire:silver_ingot>
+[POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <iceandfire:silver_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <iceandfire:sapphire_gem>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <iceandfire:sapphire_gem>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <minecraft:hardened_clay>
+[POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <minecraft:hardened_clay>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rustic:beeswax>
+[POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <rustic:beeswax>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:clay>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:diamond_helmet:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:diamond_chestplate:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:diamond_leggings:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <variedcommodities:diamond_skirt:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:diamond_boots:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:iron_helmet:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:iron_chestplate:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:iron_leggings:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <variedcommodities:iron_skirt:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:iron_boots:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:golden_helmet:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:golden_chestplate:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:golden_leggings:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <variedcommodities:golden_skirt:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:golden_boots:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:diamond_sword:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:diamond_pickaxe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:diamond_axe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:diamond_hoe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:diamond_shovel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:iron_sword:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:iron_pickaxe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:iron_axe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:iron_hoe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:iron_shovel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:golden_sword:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:golden_pickaxe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:golden_axe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:golden_hoe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:golden_shovel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:diamond_horse_armor:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:iron_horse_armor:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:golden_horse_armor:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:chainmail_helmet:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:chainmail_chestplate:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:chainmail_leggings:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <variedcommodities:chain_skirt:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:chainmail_boots:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <variedcommodities:bronze_sword:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <aquaculture:neptunium_sword:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <aquaculture:neptunium_pickaxe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <aquaculture:neptunium_axe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <aquaculture:neptunium_hoe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <aquaculture:neptunium_shovel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <aquaculture:neptunium_helmet:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <aquaculture:neptunium_chestplate:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <aquaculture:neptunium_leggings:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <aquaculture:neptunium_boots:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemdiamondhammer:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemdiamondbattleaxe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemdiamonddagger:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemdiamondnunchaku:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemironhammer:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemironbattleaxe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemirondagger:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemironnunchaku:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemgoldhammer:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemgoldbattleaxe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemgolddagger:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemgoldnunchaku:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemsilverhammer:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemsilverbattleaxe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemsilverdagger:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemsilvernunchaku:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itembronzehammer:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itembronzebattleaxe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itembronzedagger:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itembronzenunchaku:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemsteelhammer:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemsteelbattleaxe:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemsteeldagger:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <mujmajnkraftsbettersurvival:itemsteelnunchaku:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:longsword_diamond:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:katana_diamond:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:saber_diamond:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:rapier_diamond:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:greatsword_diamond:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:hammer_diamond:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:warhammer_diamond:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:halberd_diamond:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:battleaxe_diamond:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:mace_diamond:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:glaive_diamond:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:staff_diamond:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:longsword_steel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:katana_steel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:saber_steel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:rapier_steel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:greatsword_steel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:hammer_steel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:warhammer_steel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:halberd_steel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:battleaxe_steel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:mace_steel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:glaive_steel:*>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <spartanweaponry:staff_steel:*>
+[AVAILABLE][SERVER][INFO] Adding brewing recipe for <minecraft:potion>.withTag({Potion: "rlmixins:curse_break"}), Registry size now: 41
+[AVAILABLE][SERVER][INFO] Adding brewing recipe for <minecraft:splash_potion>.withTag({Potion: "rlmixins:curse_break"}), Registry size now: 42
+[AVAILABLE][SERVER][INFO] Adding brewing recipe for <minecraft:lingering_potion>.withTag({Potion: "rlmixins:curse_break"}), Registry size now: 43
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool yep to table minecraft:entities/creeper
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool rlcraftfishing to table fishingmadebetter:fishing_combined
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool lul to table minecraft:entities/zombie
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool tier#5 to table champions:champion_loot
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool wut to table minecraft:entities/skeleton
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool ground to table loottweaker:lostcityground
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool low to table loottweaker:lowtable
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool medium to table loottweaker:medtable
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool high to table loottweaker:hightable
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool highrise to table loottweaker:lostcityhighrise
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool rare to table loottweaker:lostcityrare
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool subway to table loottweaker:lostcitysubway
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool uncommon to table loottweaker:lostcityuncommon
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool builder to table loottweaker:buildertable
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool basement to table loottweaker:lostcitybasement
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool common to table loottweaker:lostcitycommon

@@ -1,0 +1,46 @@
+# common files / directories to be excluded for license issues
+eula.txt
+libraries/
+mods/
+resourcepacks/
+shaderpacks/
+datapacks/
+**/*.jar
+
+# mod specific files / directories
+global_packs/
+llibrary/
+resources/
+scripts/
+structures/
+
+# hidden files / directories except for .gitignore
+**/.*
+!.gitignore
+
+# shell scripts
+*.bat
+*.sh
+*.ps1
+
+# any text files in the root level are assumed to be irrelevant for core server functionalities apart from a few exceptions
+*.txt
+!options.txt
+
+# compressed files (e.g. world backups) except for server logs
+**/*.gz
+**/*.zip
+!/logs/*.log.gz
+
+# common media files
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.mp3
+**/*.wav
+**/*.pdf
+
+# any files / directories with word cache / Cache
+**/*cache*
+**/*Cache*
